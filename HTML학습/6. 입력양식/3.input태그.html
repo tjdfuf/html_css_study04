@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+</head>
+<body>
+
+    <form action="#">
+
+        # 이름 : <input type="text" value="김철수" disabled> <br>
+        # 비밀번호 : <input type="password"> <br>
+        # 이메일 : <input type="email" placeholder="abcdef@email.com"> <br>
+
+        # 취미 :
+        <input type="checkbox"> 게임
+        <input type="checkbox" checked> 축구
+        <input type="checkbox" disabled> 공연관람 <br>
+        <!-- checked : 미리 선택  disabled : 체크 불가 -->
+        # 메일 수신 여부 :
+        <input type="radio" name ="mail" checked> 예
+        <input type="radio" name ="mail"> 아니오 <br>
+        <!-- 하나로 인식 가능하게 같은 이름 지정해주기 -->
+
+        # 파일 : <input type="file" multiple> <br>
+        <!-- multiple : 여러개 파일 한번에 올릴수 있음 -->
+
+        <input type="range" min="0" max="5" value="2"> <br>
+
+        # 주문 수량:
+        <input type="number" min="0" max="10" value="1"> <br>
+
+        <!-- 사용자 몰래 서버로 전송할 데이터 -->
+        # <input type="hidden" name="abc" value="ㅎㅎ">
+
+        <button type="button">그냥버튼</button> <!-- 기능없음, 만들어서 쓰는 버튼 -->
+        <button type="reset">초기화버튼</button> <!-- 초기화 하는 버튼 -->
+        <button type="submit">전송버튼</button> <!-- 회원가입, 결제완료 등 전송하는 버튼 -->
+
+    </form>
+
+
+    
+</body>
+</html>
