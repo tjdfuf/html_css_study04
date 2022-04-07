@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+
+        /* class orang = .orang */
+        .orang {
+            color: orange;
+        }
+
+        /* id big = #big */
+        #big {
+            font-size: 2em;
+        }
+
+        /* 180도 뒤집기 */
+        .reverse {
+            transform: rotate(180deg);
+            width: fit-content;
+        }
+
+        .shadow {
+            text-shadow: 2px 2px 5px #333;
+        }
+
+        p, span {
+            font-style: italic;
+        }
+
+        h1,h2,h3,h4,h5,h6 {
+            font-weight: normal;
+        }
+
+        .orang, #big {
+            background: yellow;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    
+<div class="shadow">
+    <ul>
+        <li>사과</li>
+        <li class="reverse">딸기</li>
+        <li class="orang reverse" id="big">오렌지</li>
+    </ul>
+    <div class="reverse">당근</div>
+    <p>토마토</p>
+    <span class="orang">오렌지</span>
+
+    
+    <!-- h1.reverse#small -->
+    <h1 class="reverse" id="small">파인애플</h1>
+    <!-- h2.shadow.reverse -->
+    <h2 class="shadow reverse">멜론</h2>
+
+
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        /* class 사용X */
+
+        #list li:nth-child(2n+1) {
+            background: yellow;
+        }
+
+        #list li:nth-child(2n) {
+            background: gray;
+        }
+
+        #list li:first-child {
+            color: red;
+            border: 2px dotted aqua;
+        }
+
+        #list li:last-child {
+            color: green;
+        }
+
+        #list li:nth-child(2) {
+            font-style: italic;
+            border: 2px dotted aqua;
+        }
+
+        #list li:nth-child(2) ~li{
+            border: 2px dashed violet;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div id="wrap">
+        <ul id="list">
+            <li>리스트1</li>
+            <li>리스트2</li>
+            <li>리스트3</li>
+            <li>리스트4</li>
+            <li>리스트5</li>
+            <li>리스트6</li>
+            <li>리스트7</li>
+        </ul>
+    </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        /* class 사용 */
+
+        .yellow {
+            background: yellow;
+        }
+
+        .gray {
+            background: gray;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .green {
+            color: green;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .aqua {
+            border: 2px dotted aqua;
+        }
+
+      
+
+        #list li:not(.aqua) {
+            border: 2px dashed violet;
+        }
+
+
+
+    </style>
+
+
+
+
+
+
+</head>
+<body>
+    
+    <!-- #wrap>ul#list>li{리스트$}*7 -->
+    <div id="wrap">
+        <ul id="list">
+            <li class="yellow red aqua">리스트1</li>
+            <li class="gray italic aqua">리스트2</li>
+            <li class="yellow">리스트3</li>
+            <li class="gray">리스트4</li>
+            <li class="yellow">리스트5</li>
+            <li class="gray">리스트6</li>
+            <li class="yellow green">리스트7</li>
+        </ul>
+    </div>
+
+</body>
+</html>
