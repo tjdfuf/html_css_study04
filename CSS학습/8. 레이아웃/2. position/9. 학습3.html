@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+
+    <style>
+
+
+        .rightbg {
+            background: lightgray;
+            width: 70%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 700px;
+            z-index: 5;
+        }
+
+        .clearfix::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+        .container .bottombg {
+            background: #000;
+            color: #fff;
+            padding: 2%;
+            position: absolute;
+            bottom: 0;
+            width: 96%;
+            z-index: 10;
+        }
+
+        .menu {
+            background: darkblue;
+            color: #fff;
+            font-weight: bold;
+            width: 150px;
+            padding: 5px 10px 5px;
+            margin: 5px;
+            position: relative;
+            top: 100px;
+            left: 100px;
+            z-index: 1;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="rightbg"></div>
+        <div class="bottombg">Copyright Allright Reserved.</div>
+        <ul>
+            <li class="menu menu1">COMPANY</li>
+            <li class="menu menu2">PRODUCT</li>
+            <li class="menu menu3">SERVICE</li>
+            <li class="menu menu4">COMMUNITY</li>
+        </ul>
+    </div>
+
+
+
+
+
+
+</body>
+</html>
