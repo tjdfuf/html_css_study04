@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+
+    <style>
+
+        .clearfix::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+
+        .box {
+            border: 2px solid #000;
+            width: 700px;
+            text-align: center;
+            padding: 10px;
+            margin: 0 auto;
+            font-size: 10px;
+        }
+
+        header {
+            font-size: 20px;
+            font-weight: 700;
+            border: 2px solid #000;
+            width: 600px;
+            padding: 10px;
+            margin: 10px auto;
+        }
+
+        .container {
+            font-size: 10px;
+            border: 2px solid #000;
+            width: 600px;
+            margin: 10px auto;
+            padding: 10px;
+        }
+
+        .sidemenu {
+            float: left;
+            border: 2px solid #000;
+            width: 100px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .content {
+            float: left;
+            border: 2px solid #000;
+            width: 150px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .banner {
+            float: right;
+            border: 2px solid #000;
+            width: 100px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .footer {
+            border: 2px solid #000;
+            width: 600px;
+            margin: 10px auto;
+            padding: 10px;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="box">
+        <header>header</header>
+        <div class='container clearfix'>container
+            <div class='sidemenu'>sidemenu</div>
+            <div class='content'>content</div>
+            <div class='banner'>banner</div>
+        </div>
+        <div class='footer'>footer</div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,150 @@
+
+/* common style */
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+body {
+    font-size: 13px;
+    line-height: 1.2;
+    font-family: '굴림', Gulim, serif;
+    color: #333;
+    background: #666;
+}
+
+#wrapper {
+    background: aqua;
+    width: 60%;
+    margin: 0 auto;
+}
+
+header {
+    background: orange;
+}
+
+header h1 {
+    font-size: 9em;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    
+}
+
+header h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+header div {
+    background: rgb(163, 162, 162);
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.container {
+    background: #fff;
+}
+
+.container .menu {
+    width: 20%;
+    float: left;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.container .menu h3 {
+    background: darkred;
+    padding: 10px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.container .menu li {
+    padding: 10px 10px;
+}
+
+.container .menu li a {
+    color: #000;
+    font-weight: 700;
+}
+
+.container .menu li a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+
+.container .content {
+    width: 60%;
+    float: left;
+    background: lightgray;
+}
+
+.container .content h4 {
+    background: rgb(39, 39, 107);
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+.container .content .name {
+    font-size: 15px;
+    color: rgb(39, 39, 107);
+    font-weight: 700;
+    margin: 20px 10px 20px;
+}
+
+.container .content p {
+    font-size: 12px;
+    color: rgb(39, 39, 107);
+    margin: 10px;
+    font-weight: 700;
+}
+
+.container .benner {
+    width: 20%;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container .benner .gray {
+    color: gray;
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container .benner .orange {
+    color: orange;
+    font-size: 20px;
+    border-bottom: 2px solid orange;
+    font-weight: 700;
+}
+
+.container .benner .black {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container .benner div {
+    margin-top: 20px;
+    font-size: 17px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.container .benner p {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
